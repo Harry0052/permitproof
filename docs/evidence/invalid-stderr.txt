@@ -1,0 +1,11 @@
+error: MALFORMED_INPUT
+The application does not match the PermitProof input contract.
+- unknown fields: unexpected
+- schema_version must be 1.0.0
+- registry_id must be lowercase letters, numbers, and hyphens
+- parcel_id must match SYN-[A-Z0-9-]{1,40}; this sample accepts synthetic ids only
+- provide a synthetic parcel_id or a synthetic address_query
+- intended_use must be general-retail or general-office
+- current_use.state must be documented, self-reported, or unknown
+- as_of must be a real calendar date YYYY-MM-DD
+- operator_confirmed.parcel must be true or false

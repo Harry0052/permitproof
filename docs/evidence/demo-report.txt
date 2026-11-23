@@ -1,0 +1,52 @@
+PermitProof checklist
+NOT AN APPROVAL
+
+Category: reviewed-rule
+As of: 2026-06-01
+Registry: seattle-sample-2026-11-23
+Documented change date: 2026-01-21
+Selected rule: rule-nc2-general-retail-2026
+
+Confirm the published cell, the unanswered conditions, and the establishment-of-use permit with SDCI. No use was treated as allowed.
+
+Facts
+- parcel: established. SYNTHETIC parcel SYN-NC2-001 (SYN-NC2-001).
+- zoning: established. Synthetic snapshot designation is NC2. Overlay indicator is false. This is not a City GIS determination.
+- intended-use: established. One reviewed table cell matches this district and use on the as-of date. Cell 25: Published key 25 means permitted, and the business establishment is limited to 25,000 square feet under SMC 23.47A.010. Read on 2026-11-23 from Seattle Municipal Code Supplement No. 44, codified through Ordinance 127459, passed June 30, 2026. The section history lists Ord. 127376 section 48 (2025). This window starts on 2026-01-21, the date secondary summaries give after the December 22, 2025 mayoral signature. Confirm that effective date with the City Clerk. This describes a published cell. It is not a permit.
+- existing-use: established. The operator marked the current use as documented and supplied citation SYNTHETIC-RECORD-100. PermitProof did not look that citation up in SDCI files.
+- occupancy-licensing: missing. A change of use can still require an establishment-of-use permit and a certificate of occupancy. This sample does not check business licenses.
+
+Documented rule
+- NC2 / general-retail / cell 25
+  Reviewed table cell 25. Published key 25 means permitted, and the business establishment is limited to 25,000 square feet under SMC 23.47A.010. Effective window: 2026-01-21 onward. Read on 2026-11-23 from Seattle Municipal Code Supplement No. 44, codified through Ordinance 127459, passed June 30, 2026. The section history lists Ord. 127376 section 48 (2025). This window starts on 2026-01-21, the date secondary summaries give after the December 22, 2025 mayoral signature. Confirm that effective date with the City Clerk. This cell is not a statement that a permit will be issued.
+  source: https://library.municode.com/wa/seattle/codes/municipal_code?nodeId=TIT23LAUSCO_SUBTITLE_IIILAUSRE_CH23.47ACO_23.47A.004PEPRUS | section: SMC 23.47A.004 Table A for 23.47A.004, row C.10.a | effective date: 2026-01-21 | retrieved: 2026-11-23
+
+Records to obtain
+- Establishment-of-use record
+  SDCI states that establishing a use, including a change from one business use to another, is done by permit. This checklist does not file that permit.
+  source: https://www.seattle.gov/construction-and-inspections/permits/permits-we-issue-(a-z)/construction-permit---establishing-use | section: SDCI guidance, Establish a Use | effective date: (none) | retrieved: 2026-11-23
+
+Questions to confirm
+- Condition size-cap
+  Confirm the business-establishment size. The published cell caps it at 25,000 square feet under SMC 23.47A.010. Size is not an input here.
+  source: (none) | section: (none) | effective date: (none) | retrieved: (none)
+- Condition not-an-overlay-reading
+  SMC 23.47A.004.A says overlay districts can provide otherwise. This sample does not interpret overlays.
+  source: (none) | section: (none) | effective date: (none) | retrieved: (none)
+- Confirm the published cell
+  Confirm this source URL, section, and effective window with the municipal code or SDCI. This copy is a reviewed fixture, not a live code service.
+  source: (none) | section: (none) | effective date: (none) | retrieved: (none)
+
+Limitations
+- No use was treated as allowed.
+- PermitProof does not grant, predict, or deny permission to use a property.
+- This checklist is not an SDCI permit decision, a zoning determination, or a certificate of occupancy.
+- Overlay districts, conditional-use criteria, and special permits are outside this sample and are not interpreted.
+- Every parcel in this sample is synthetic. None of these rows are City of Seattle parcel records.
+- Refresh the municipal code and use an authoritative parcel source before any real pre-lease decision.
+
+Input SHA-256: 837507a5ebaef7d9bc18a837b228aff0603edfb3e95c9e1294e68d634053c104
+Trace parcels: fixtures/registries/seattle-sample-2026-11-23/parcels.json
+Trace rules: fixtures/registries/seattle-sample-2026-11-23/rules.yaml
+Trace parcel id: SYN-NC2-001
+Trace rule id: rule-nc2-general-retail-2026

@@ -1,0 +1,16 @@
+# Notices
+
+PermitProof is MIT licensed. See `LICENSE`.
+
+The checklist does not copy the Municode compilation of the Seattle Municipal Code. Rule rows store short table-cell codes, section locators, and paraphrases of the published key, with the source URL and the date they were read (2026-11-23). Seattle's municipal code is public law. The City GIS zoning extract was not included. Parcel rows are synthetic.
+
+## Third-party packages
+
+| Package | Version | License | Role |
+| --- | --- | --- | --- |
+| yaml | 2.9.1 | ISC | Parses the checked-in rule files |
+| typescript | 7.0.2 | Apache-2.0 | Development-time compiler |
+| vitest | 5.1.1 | MIT | Tests |
+| @types/node | 26.6.6 | MIT | Node.js type declarations |
+
+Runtime execution uses Node.js, which is built separately from this package, including the experimental `node:sqlite` module. No package in this project is a paid service.

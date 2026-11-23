@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0.0",
+  "approval": false,
+  "legal_permission": null,
+  "permissibility_conclusion": null,
+  "permission_applied": false,
+  "confirmation_category": "reviewed-rule",
+  "registry_id": "seattle-sample-2026-11-23",
+  "documented_change_date": "2026-01-21",
+  "as_of": "2026-06-01",
+  "selected_rule_id": "rule-nc2-general-retail-2026",
+  "candidate_rule_ids": [
+    "rule-nc2-general-retail-2026"
+  ],
+  "facts": [
+    {
+      "id": "parcel",
+      "state": "established",
+      "text": "SYNTHETIC parcel SYN-NC2-001 (SYN-NC2-001).",
+      "coverage": "fixture",
+      "source_url": null,
+      "source_section": "fixtures/registries/seattle-sample-2026-11-23/parcels.json#SYN-NC2-001",
+      "effective_date": null,
+      "effective_from": null,
+      "effective_to": null,
+      "retrieval_date": "2026-11-23"
+    },
+    {
+      "id": "zoning",
+      "state": "established",
+      "text": "Synthetic snapshot designation is NC2. Overlay indicator is false. This is not a City GIS determination.",
+      "coverage": "fixture",
+      "source_url": null,
+      "source_section": "fixtures/registries/seattle-sample-2026-11-23/parcels.json#SYN-NC2-001",
+      "effective_date": null,
+      "effective_from": null,
+      "effective_to": null,
+      "retrieval_date": "2026-11-23"
+    },
+    {
+      "id": "intended-use",
+      "state": "established",
+      "text": "One reviewed table cell matches this district and use on the as-of date. Cell 25: Published key 25 means permitted, and the business establishment is limited to 25,000 square feet under SMC 23.47A.010. Read on 2026-11-23 from Seattle Municipal Code Supplement No. 44, codified through Ordinance 127459, passed June 30, 2026. The section history lists Ord. 127376 section 48 (2025). This window starts on 2026-01-21, the date secondary summaries give after the December 22, 2025 mayoral signature. Confirm that effective date with the City Clerk. This describes a published cell. It is not a permit.",
+      "coverage": "source-backed",
+      "source_url": "https://library.municode.com/wa/seattle/codes/municipal_code?nodeId=TIT23LAUSCO_SUBTITLE_IIILAUSRE_CH23.47ACO_23.47A.004PEPRUS",
+      "source_section": "SMC 23.47A.004 Table A for 23.47A.004, row C.10.a",
+      "effective_date": "2026-01-21",
+      "effective_from": "2026-01-21",
+      "effective_to": null,
+      "retrieval_date": "2026-11-23"
+    },
+    {
+      "id": "existing-use",
+      "state": "established",
+      "text": "The operator marked the current use as documented and supplied citation SYNTHETIC-RECORD-100. PermitProof did not look that citation up in SDCI files.",
+      "coverage": "operator-supplied",
+      "source_url": null,
+      "source_section": "operator citation",
+      "effective_date": null,
+      "effective_from": null,
+      "effective_to": null,
+      "retrieval_date": null
+    },
+    {
+      "id": "occupancy-licensing",
+      "state": "missing",
+      "text": "A change of use can still require an establishment-of-use permit and a certificate of occupancy. This sample does not check business licenses.",
+      "coverage": "gap",
+      "source_url": "https://www.seattle.gov/construction-and-inspections/permits/permits-we-issue-(a-z)/construction-permit---establishing-use",
+      "source_section": "SDCI guidance, Establish a Use",
+      "effective_date": null,
+      "effective_from": null,
+      "effective_to": null,
+      "retrieval_date": "2026-11-23"
+    }
+  ],
+  "groups": {
+    "documented_rules": [
+      {
+        "id": "rule:rule-nc2-general-retail-2026",
+        "title": "NC2 / general-retail / cell 25",
+        "text": "Reviewed table cell 25. Published key 25 means permitted, and the business establishment is limited to 25,000 square feet under SMC 23.47A.010. Effective window: 2026-01-21 onward. Read on 2026-11-23 from Seattle Municipal Code Supplement No. 44, codified through Ordinance 127459, passed June 30, 2026. The section history lists Ord. 127376 section 48 (2025). This window starts on 2026-01-21, the date secondary summaries give after the December 22, 2025 mayoral signature. Confirm that effective date with the City Clerk. This cell is not a statement that a permit will be issued.",
+        "source_url": "https://library.municode.com/wa/seattle/codes/municipal_code?nodeId=TIT23LAUSCO_SUBTITLE_IIILAUSRE_CH23.47ACO_23.47A.004PEPRUS",
+        "source_section": "SMC 23.47A.004 Table A for 23.47A.004, row C.10.a",
+        "effective_date": "2026-01-21",
+        "effective_from": "2026-01-21",
+        "effective_to": null,
+        "retrieval_date": "2026-11-23",
+        "coverage": "source-backed",
+        "verification_scope": "supplement-44-reading",
+        "permission_applied": false
+      }
+    ],
+    "records_to_obtain": [
+      {
+        "id": "record:establishment-of-use",
+        "title": "Establishment-of-use record",
+        "text": "SDCI states that establishing a use, including a change from one business use to another, is done by permit. This checklist does not file that permit.",
+        "source_url": "https://www.seattle.gov/construction-and-inspections/permits/permits-we-issue-(a-z)/construction-permit---establishing-use",
+        "source_section": "SDCI guidance, Establish a Use",
+        "effective_date": null,
+        "effective_from": null,
+        "effective_to": null,
+        "retrieval_date": "2026-11-23",
+        "coverage": "gap",
+        "verification_scope": null,
+        "permission_applied": false
+      }
+    ],
+    "questions_to_confirm": [
+      {
+        "id": "question:condition:size-cap",
+        "title": "Condition size-cap",
+        "text": "Confirm the business-establishment size. The published cell caps it at 25,000 square feet under SMC 23.47A.010. Size is not an input here.",
+        "source_url": null,
+        "source_section": null,
+        "effective_date": null,
+        "effective_from": null,
+        "effective_to": null,
+        "retrieval_date": null,
+        "coverage": "gap",
+        "verification_scope": null,
+        "permission_applied": false
+      },
+      {
+        "id": "question:condition:not-an-overlay-reading",
+        "title": "Condition not-an-overlay-reading",
+        "text": "SMC 23.47A.004.A says overlay districts can provide otherwise. This sample does not interpret overlays.",
+        "source_url": null,
+        "source_section": null,
+        "effective_date": null,
+        "effective_from": null,
+        "effective_to": null,
+        "retrieval_date": null,
+        "coverage": "gap",
+        "verification_scope": null,
+        "permission_applied": false
+      },
+      {
+        "id": "question:confirm-published-cell",
+        "title": "Confirm the published cell",
+        "text": "Confirm this source URL, section, and effective window with the municipal code or SDCI. This copy is a reviewed fixture, not a live code service.",
+        "source_url": null,
+        "source_section": null,
+        "effective_date": null,
+        "effective_from": null,
+        "effective_to": null,
+        "retrieval_date": null,
+        "coverage": "gap",
+        "verification_scope": null,
+        "permission_applied": false
+      }
+    ]
+  },
+  "limitations": [
+    "No use was treated as allowed.",
+    "PermitProof does not grant, predict, or deny permission to use a property.",
+    "This checklist is not an SDCI permit decision, a zoning determination, or a certificate of occupancy.",
+    "Overlay districts, conditional-use criteria, and special permits are outside this sample and are not interpreted.",
+    "Every parcel in this sample is synthetic. None of these rows are City of Seattle parcel records.",
+    "Refresh the municipal code and use an authoritative parcel source before any real pre-lease decision."
+  ],
+  "recovery": "Confirm the published cell, the unanswered conditions, and the establishment-of-use permit with SDCI. No use was treated as allowed.",
+  "input_sha256": "837507a5ebaef7d9bc18a837b228aff0603edfb3e95c9e1294e68d634053c104",
+  "trace": {
+    "registry_id": "seattle-sample-2026-11-23",
+    "rules_file": "fixtures/registries/seattle-sample-2026-11-23/rules.yaml",
+    "parcels_file": "fixtures/registries/seattle-sample-2026-11-23/parcels.json",
+    "parcel_id": "SYN-NC2-001",
+    "rule_id": "rule-nc2-general-retail-2026"
+  }
+}

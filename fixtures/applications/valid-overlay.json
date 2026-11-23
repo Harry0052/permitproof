@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "registry_id": "seattle-sample-2026-11-23",
+  "parcel_id": "SYN-OVERLAY-001",
+  "intended_use": "general-retail",
+  "current_use": {
+    "state": "documented",
+    "citation": "SYNTHETIC-RECORD-OVERLAY"
+  },
+  "as_of": "2026-06-01",
+  "operator_confirmed": {
+    "parcel": true,
+    "intended_use": true,
+    "current_use": true,
+    "as_of": true
+  }
+}

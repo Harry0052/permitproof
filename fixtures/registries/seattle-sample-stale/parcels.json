@@ -1,0 +1,14 @@
+{
+  "parcels": [
+    {
+      "parcel_id": "SYN-NC2-001",
+      "synthetic": true,
+      "display_name": "SYNTHETIC parcel SYN-NC2-001",
+      "district": "NC2",
+      "designations": ["NC2"],
+      "overlay": false,
+      "source_timestamp": "2024-06-01",
+      "address_keys": ["SYNTHETIC NC2 SAMPLE"]
+    }
+  ]
+}

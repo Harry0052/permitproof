@@ -1,0 +1,42 @@
+{
+  "name": "permitproof",
+  "version": "0.1.0",
+  "description": "Source-linked Seattle pre-lease zoning and permit checklists for a narrow synthetic sample.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harry0052/permitproof.git"
+  },
+  "bin": {
+    "permitproof": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "fixtures",
+    "README.md",
+    "LICENSE",
+    "NOTICE",
+    "SECURITY.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json && chmod +x dist/cli.js",
+    "typecheck": "tsc -p tsconfig.typecheck.json",
+    "test": "npm run build && vitest run",
+    "demo": "npm run build && node --disable-warning=ExperimentalWarning dist/cli.js demo",
+    "validate:valid": "npm run build && node --disable-warning=ExperimentalWarning dist/cli.js validate --input fixtures/applications/valid-documented-retail.json",
+    "validate:invalid": "npm run build && node --disable-warning=ExperimentalWarning dist/cli.js validate --input fixtures/applications/invalid-malformed.json"
+  },
+  "dependencies": {
+    "yaml": "2.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.6",
+    "typescript": "7.0.2",
+    "vitest": "5.1.1"
+  }
+}

@@ -1,0 +1,35 @@
+registry_id: seattle-sample-unreviewed
+municipality: Seattle
+retrieved_on: "2026-11-23"
+fresh_through: "2026-11-23"
+coverage_start: "2024-01-01"
+documented_change_date: "2026-01-21"
+supported_districts:
+  - NC2
+  - C1
+supported_uses:
+  - general-retail
+  - general-office
+guidance:
+  source_url: "https://www.seattle.gov/construction-and-inspections/permits/permits-we-issue-(a-z)/construction-permit---establishing-use"
+  source_section: "SDCI guidance, Establish a Use"
+rules:
+  - rule_id: rule-unreviewed-retail
+    use_id: general-retail
+    district: NC2
+    source_url: "https://library.municode.com/wa/seattle/codes/municipal_code?nodeId=TIT23LAUSCO_SUBTITLE_IIILAUSRE_CH23.47ACO_23.47A.004PEPRUS"
+    code_locator: "SMC 23.47A.004 Table A for 23.47A.004, row C.10.a"
+    effective_from: "2026-01-21"
+    effective_to: null
+    review_status: unreviewed
+    reviewed_by: not-reviewed
+    reviewed_on: "2026-11-23"
+    table_cell: "25"
+    cell_meaning: "Unreviewed fixture row. It must not be selected as a conclusion."
+    verification_scope: supplement-44-reading
+    content_origin: published-code-reading
+    ordinance_citation: "This row is marked unreviewed so the engine can prove it will not treat the cell as a result."
+    conditions:
+      - id: size-cap
+        text: "Not used. The row is unreviewed."
+        evaluated: false

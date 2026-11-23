@@ -1,0 +1,84 @@
+{
+  "parcels": [
+    {
+      "parcel_id": "SYN-NC2-001",
+      "synthetic": true,
+      "display_name": "SYNTHETIC parcel SYN-NC2-001",
+      "district": "NC2",
+      "designations": ["NC2"],
+      "overlay": false,
+      "source_timestamp": "2026-11-23",
+      "address_keys": ["SYNTHETIC NC2 SAMPLE"]
+    },
+    {
+      "parcel_id": "SYN-C1-001",
+      "synthetic": true,
+      "display_name": "SYNTHETIC parcel SYN-C1-001",
+      "district": "C1",
+      "designations": ["C1"],
+      "overlay": false,
+      "source_timestamp": "2026-11-23",
+      "address_keys": ["SYNTHETIC C1 SAMPLE"]
+    },
+    {
+      "parcel_id": "SYN-OVERLAY-001",
+      "synthetic": true,
+      "display_name": "SYNTHETIC parcel SYN-OVERLAY-001",
+      "district": "NC2",
+      "designations": ["NC2"],
+      "overlay": true,
+      "source_timestamp": "2026-11-23",
+      "address_keys": ["SYNTHETIC OVERLAY SAMPLE"]
+    },
+    {
+      "parcel_id": "SYN-MULTI-001",
+      "synthetic": true,
+      "display_name": "SYNTHETIC parcel SYN-MULTI-001",
+      "district": null,
+      "designations": ["NC2", "IC"],
+      "overlay": false,
+      "source_timestamp": "2026-11-23",
+      "address_keys": ["SYNTHETIC MULTI SAMPLE"]
+    },
+    {
+      "parcel_id": "SYN-UNKNOWN-001",
+      "synthetic": true,
+      "display_name": "SYNTHETIC parcel SYN-UNKNOWN-001",
+      "district": "IC",
+      "designations": ["IC"],
+      "overlay": false,
+      "source_timestamp": "2026-11-23",
+      "address_keys": ["SYNTHETIC UNKNOWN DISTRICT SAMPLE"]
+    },
+    {
+      "parcel_id": "SYN-AMBIG-A",
+      "synthetic": true,
+      "display_name": "SYNTHETIC parcel SYN-AMBIG-A",
+      "district": "NC2",
+      "designations": ["NC2"],
+      "overlay": false,
+      "source_timestamp": "2026-11-23",
+      "address_keys": ["SYNTHETIC AMBIGUOUS CORNER"]
+    },
+    {
+      "parcel_id": "SYN-AMBIG-B",
+      "synthetic": true,
+      "display_name": "SYNTHETIC parcel SYN-AMBIG-B",
+      "district": "C1",
+      "designations": ["C1"],
+      "overlay": false,
+      "source_timestamp": "2026-11-23",
+      "address_keys": ["SYNTHETIC AMBIGUOUS CORNER"]
+    },
+    {
+      "parcel_id": "SYN-NOTIMESTAMP-001",
+      "synthetic": true,
+      "display_name": "SYNTHETIC parcel SYN-NOTIMESTAMP-001",
+      "district": "NC2",
+      "designations": ["NC2"],
+      "overlay": false,
+      "source_timestamp": null,
+      "address_keys": ["SYNTHETIC MISSING TIMESTAMP"]
+    }
+  ]
+}
