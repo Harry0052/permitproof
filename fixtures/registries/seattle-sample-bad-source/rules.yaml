@@ -1,0 +1,35 @@
+registry_id: seattle-sample-bad-source
+municipality: Seattle
+retrieved_on: "2026-11-23"
+fresh_through: "2026-11-23"
+coverage_start: "2024-01-01"
+documented_change_date: "2026-01-21"
+supported_districts:
+  - NC2
+  - C1
+supported_uses:
+  - general-retail
+  - general-office
+guidance:
+  source_url: "https://www.seattle.gov/construction-and-inspections/permits/permits-we-issue-(a-z)/construction-permit---establishing-use"
+  source_section: "SDCI guidance, Establish a Use"
+rules:
+  - rule_id: rule-detached-pdf
+    use_id: general-retail
+    district: NC2
+    source_url: "https://example.com/detached-ordinance.pdf"
+    code_locator: "detached excerpt"
+    effective_from: "2026-01-21"
+    effective_to: null
+    review_status: unreviewed
+    reviewed_by: not-reviewed
+    reviewed_on: "2026-11-23"
+    table_cell: "25"
+    cell_meaning: "This row must be rejected before it can be queried."
+    verification_scope: supplement-44-reading
+    content_origin: detached-pdf
+    ordinance_citation: "Detached PDF text is not a reviewed rule source."
+    conditions:
+      - id: size-cap
+        text: "Not used."
+        evaluated: false

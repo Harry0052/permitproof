@@ -1,0 +1,271 @@
+{
+  "method": "Hand check against SMC 23.47A.004 Table A as read on 2026-11-23. As-of dates on or after 2026-01-21 select the 2026 window. 2026-01-20 selects the earlier window. See fixtures/oracle/method.md.",
+  "cases": [
+    {
+      "name": "documented-retail",
+      "file": "fixtures/applications/valid-documented-retail.json",
+      "confirmation_category": "reviewed-rule",
+      "selected_rule_id": "rule-nc2-general-retail-2026",
+      "candidate_rule_ids": ["rule-nc2-general-retail-2026"],
+      "source_section": "SMC 23.47A.004 Table A for 23.47A.004, row C.10.a",
+      "effective_from": "2026-01-21",
+      "effective_to": null,
+      "table_cell": "25",
+      "follow_up_ids": [
+        "question:condition:size-cap",
+        "question:condition:not-an-overlay-reading",
+        "question:confirm-published-cell"
+      ],
+      "record_ids": ["record:establishment-of-use"]
+    },
+    {
+      "name": "self-reported-retail",
+      "file": "fixtures/applications/valid-self-reported-retail.json",
+      "confirmation_category": "reviewed-rule",
+      "selected_rule_id": "rule-nc2-general-retail-2026",
+      "candidate_rule_ids": ["rule-nc2-general-retail-2026"],
+      "source_section": "SMC 23.47A.004 Table A for 23.47A.004, row C.10.a",
+      "effective_from": "2026-01-21",
+      "effective_to": null,
+      "table_cell": "25",
+      "follow_up_ids": [
+        "question:condition:size-cap",
+        "question:condition:not-an-overlay-reading",
+        "question:confirm-published-cell",
+        "question:city-record-check"
+      ],
+      "record_ids": ["record:establishment-of-use"]
+    },
+    {
+      "name": "unknown-prior-use",
+      "file": "fixtures/applications/valid-unknown-prior-use.json",
+      "confirmation_category": "reviewed-rule",
+      "selected_rule_id": "rule-nc2-general-retail-2026",
+      "candidate_rule_ids": ["rule-nc2-general-retail-2026"],
+      "source_section": "SMC 23.47A.004 Table A for 23.47A.004, row C.10.a",
+      "effective_from": "2026-01-21",
+      "effective_to": null,
+      "table_cell": "25",
+      "follow_up_ids": [
+        "question:condition:size-cap",
+        "question:condition:not-an-overlay-reading",
+        "question:confirm-published-cell",
+        "question:city-record-check"
+      ],
+      "record_ids": ["record:establishment-of-use"]
+    },
+    {
+      "name": "before-change",
+      "file": "fixtures/applications/valid-before-change.json",
+      "confirmation_category": "reviewed-rule-historical-cell-unverified",
+      "selected_rule_id": "rule-nc2-general-retail-2024win",
+      "candidate_rule_ids": ["rule-nc2-general-retail-2024win"],
+      "source_section": "SMC 23.47A.004 Table A for 23.47A.004, row C.10.a",
+      "effective_from": "2024-01-01",
+      "effective_to": "2026-01-20",
+      "table_cell": "25",
+      "follow_up_ids": [
+        "question:condition:size-cap",
+        "question:condition:not-an-overlay-reading",
+        "question:confirm-published-cell",
+        "question:historical-cell"
+      ],
+      "record_ids": ["record:establishment-of-use"]
+    },
+    {
+      "name": "on-change",
+      "file": "fixtures/applications/valid-on-change.json",
+      "confirmation_category": "reviewed-rule",
+      "selected_rule_id": "rule-nc2-general-retail-2026",
+      "candidate_rule_ids": ["rule-nc2-general-retail-2026"],
+      "source_section": "SMC 23.47A.004 Table A for 23.47A.004, row C.10.a",
+      "effective_from": "2026-01-21",
+      "effective_to": null,
+      "table_cell": "25",
+      "follow_up_ids": [
+        "question:condition:size-cap",
+        "question:condition:not-an-overlay-reading",
+        "question:confirm-published-cell"
+      ],
+      "record_ids": ["record:establishment-of-use"]
+    },
+    {
+      "name": "office-c1",
+      "file": "fixtures/applications/valid-office-c1.json",
+      "confirmation_category": "reviewed-rule",
+      "selected_rule_id": "rule-c1-general-office-2026",
+      "candidate_rule_ids": ["rule-c1-general-office-2026"],
+      "source_section": "SMC 23.47A.004 Table A for 23.47A.004, row C.8",
+      "effective_from": "2026-01-21",
+      "effective_to": null,
+      "table_cell": "35",
+      "follow_up_ids": [
+        "question:condition:office-size-footnote-9",
+        "question:condition:not-an-overlay-reading",
+        "question:confirm-published-cell"
+      ],
+      "record_ids": ["record:establishment-of-use"]
+    },
+    {
+      "name": "retail-c1",
+      "file": "fixtures/applications/valid-retail-c1.json",
+      "confirmation_category": "reviewed-rule",
+      "selected_rule_id": "rule-c1-general-retail-2026",
+      "candidate_rule_ids": ["rule-c1-general-retail-2026"],
+      "source_section": "SMC 23.47A.004 Table A for 23.47A.004, row C.10.a",
+      "effective_from": "2026-01-21",
+      "effective_to": null,
+      "table_cell": "P",
+      "follow_up_ids": [
+        "question:condition:other-title-23",
+        "question:condition:not-an-overlay-reading",
+        "question:confirm-published-cell"
+      ],
+      "record_ids": ["record:establishment-of-use"]
+    },
+    {
+      "name": "overlay",
+      "file": "fixtures/applications/valid-overlay.json",
+      "confirmation_category": "overlay-follow-up",
+      "selected_rule_id": "rule-nc2-general-retail-2026",
+      "candidate_rule_ids": ["rule-nc2-general-retail-2026"],
+      "source_section": "SMC 23.47A.004 Table A for 23.47A.004, row C.10.a",
+      "effective_from": "2026-01-21",
+      "effective_to": null,
+      "table_cell": "25",
+      "follow_up_ids": ["question:overlay"],
+      "record_ids": ["record:establishment-of-use"]
+    },
+    {
+      "name": "multi",
+      "file": "fixtures/applications/valid-multi.json",
+      "confirmation_category": "quarantine-multiple-designations",
+      "selected_rule_id": null,
+      "candidate_rule_ids": [],
+      "source_section": null,
+      "effective_from": null,
+      "effective_to": null,
+      "table_cell": null,
+      "follow_up_ids": ["question:quarantine-multiple-designations"],
+      "record_ids": []
+    },
+    {
+      "name": "unknown-district",
+      "file": "fixtures/applications/valid-unknown-district.json",
+      "confirmation_category": "needs-review-unknown-district",
+      "selected_rule_id": null,
+      "candidate_rule_ids": [],
+      "source_section": null,
+      "effective_from": null,
+      "effective_to": null,
+      "table_cell": null,
+      "follow_up_ids": ["question:unsupported-district"],
+      "record_ids": []
+    },
+    {
+      "name": "ambiguous",
+      "file": "fixtures/applications/valid-ambiguous.json",
+      "confirmation_category": "needs-review-ambiguous-address",
+      "selected_rule_id": null,
+      "candidate_rule_ids": [],
+      "source_section": null,
+      "effective_from": null,
+      "effective_to": null,
+      "table_cell": null,
+      "follow_up_ids": ["question:ambiguous-address"],
+      "record_ids": [],
+      "forbid_district_codes": true
+    },
+    {
+      "name": "conflict",
+      "file": "fixtures/applications/valid-conflict.json",
+      "confirmation_category": "needs-review-conflicting-rules",
+      "selected_rule_id": null,
+      "candidate_rule_ids": ["rule-conflict-a", "rule-conflict-b"],
+      "source_section": null,
+      "effective_from": null,
+      "effective_to": null,
+      "table_cell": null,
+      "follow_up_ids": ["question:conflicting-rules"],
+      "record_ids": []
+    },
+    {
+      "name": "before-dataset",
+      "file": "fixtures/applications/valid-before-dataset.json",
+      "confirmation_category": "needs-review-before-dataset",
+      "selected_rule_id": null,
+      "candidate_rule_ids": [],
+      "source_section": null,
+      "effective_from": null,
+      "effective_to": null,
+      "table_cell": null,
+      "follow_up_ids": ["question:before-dataset"],
+      "record_ids": []
+    },
+    {
+      "name": "stale",
+      "file": "fixtures/applications/valid-stale.json",
+      "confirmation_category": "source-data-failure-stale",
+      "selected_rule_id": null,
+      "candidate_rule_ids": [],
+      "source_section": null,
+      "effective_from": null,
+      "effective_to": null,
+      "table_cell": null,
+      "follow_up_ids": [],
+      "record_ids": []
+    },
+    {
+      "name": "empty",
+      "file": "fixtures/applications/valid-empty.json",
+      "confirmation_category": "source-data-failure-empty",
+      "selected_rule_id": null,
+      "candidate_rule_ids": [],
+      "source_section": null,
+      "effective_from": null,
+      "effective_to": null,
+      "table_cell": null,
+      "follow_up_ids": [],
+      "record_ids": []
+    },
+    {
+      "name": "missing-timestamp",
+      "file": "fixtures/applications/valid-missing-timestamp.json",
+      "confirmation_category": "source-data-failure-missing-parcel-timestamp",
+      "selected_rule_id": null,
+      "candidate_rule_ids": [],
+      "source_section": null,
+      "effective_from": null,
+      "effective_to": null,
+      "table_cell": null,
+      "follow_up_ids": [],
+      "record_ids": []
+    },
+    {
+      "name": "unknown-parcel",
+      "file": "fixtures/applications/valid-unknown-parcel.json",
+      "confirmation_category": "needs-review-unknown-parcel",
+      "selected_rule_id": null,
+      "candidate_rule_ids": [],
+      "source_section": null,
+      "effective_from": null,
+      "effective_to": null,
+      "table_cell": null,
+      "follow_up_ids": ["question:unknown-parcel"],
+      "record_ids": []
+    },
+    {
+      "name": "unreviewed",
+      "file": "fixtures/applications/valid-unreviewed.json",
+      "confirmation_category": "needs-review-no-reviewed-rule",
+      "selected_rule_id": null,
+      "candidate_rule_ids": [],
+      "source_section": null,
+      "effective_from": null,
+      "effective_to": null,
+      "table_cell": null,
+      "follow_up_ids": ["question:no-reviewed-rule"],
+      "record_ids": []
+    }
+  ]
+}

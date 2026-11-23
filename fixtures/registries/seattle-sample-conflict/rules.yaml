@@ -1,0 +1,54 @@
+registry_id: seattle-sample-conflict
+municipality: Seattle
+retrieved_on: "2026-11-23"
+fresh_through: "2026-11-23"
+coverage_start: "2024-01-01"
+documented_change_date: "2026-01-21"
+supported_districts:
+  - NC2
+  - C1
+supported_uses:
+  - general-retail
+  - general-office
+guidance:
+  source_url: "https://www.seattle.gov/construction-and-inspections/permits/permits-we-issue-(a-z)/construction-permit---establishing-use"
+  source_section: "SDCI guidance, Establish a Use"
+rules:
+  - rule_id: rule-conflict-a
+    use_id: general-retail
+    district: NC2
+    source_url: "https://library.municode.com/wa/seattle/codes/municipal_code?nodeId=TIT23LAUSCO_SUBTITLE_IIILAUSRE_CH23.47ACO_23.47A.004PEPRUS"
+    code_locator: "SMC 23.47A.004 Table A for 23.47A.004, row C.10.a"
+    effective_from: "2026-01-21"
+    effective_to: null
+    review_status: reviewed
+    reviewed_by: permitproof-fixture-review
+    reviewed_on: "2026-11-23"
+    table_cell: "25"
+    cell_meaning: "Published key 25 means permitted, and the business establishment is limited to 25,000 square feet under SMC 23.47A.010."
+    verification_scope: supplement-44-reading
+    content_origin: published-code-reading
+    ordinance_citation: "Synthetic conflict fixture row A. This record intentionally overlaps another reviewed row so the engine must refuse to choose. It is not a second city ordinance."
+    conditions:
+      - id: size-cap
+        text: "Confirm the business-establishment size. The published cell caps it at 25,000 square feet under SMC 23.47A.010. Size is not an input here."
+        evaluated: false
+  - rule_id: rule-conflict-b
+    use_id: general-retail
+    district: NC2
+    source_url: "https://library.municode.com/wa/seattle/codes/municipal_code?nodeId=TIT23LAUSCO_SUBTITLE_IIILAUSRE_CH23.47ACO_23.47A.004PEPRUS"
+    code_locator: "SMC 23.47A.004 Table A for 23.47A.004, row C.10.a"
+    effective_from: "2026-01-01"
+    effective_to: "2026-12-31"
+    review_status: reviewed
+    reviewed_by: permitproof-fixture-review
+    reviewed_on: "2026-11-23"
+    table_cell: "25"
+    cell_meaning: "Published key 25 means permitted, and the business establishment is limited to 25,000 square feet under SMC 23.47A.010."
+    verification_scope: supplement-44-reading
+    content_origin: published-code-reading
+    ordinance_citation: "Synthetic conflict fixture row B. This record intentionally overlaps another reviewed row so the engine must refuse to choose. It is not a second city ordinance."
+    conditions:
+      - id: size-cap
+        text: "Confirm the business-establishment size. The published cell caps it at 25,000 square feet under SMC 23.47A.010. Size is not an input here."
+        evaluated: false

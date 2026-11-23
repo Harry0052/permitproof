@@ -1,0 +1,17 @@
+{
+  "schema_version": "9.9.9",
+  "registry_id": "Not A Registry",
+  "parcel_id": "123 Main Street",
+  "intended_use": "restaurant",
+  "current_use": {
+    "state": "guessed"
+  },
+  "as_of": "yesterday",
+  "operator_confirmed": {
+    "parcel": "yes",
+    "intended_use": true,
+    "current_use": true,
+    "as_of": true
+  },
+  "unexpected": true
+}

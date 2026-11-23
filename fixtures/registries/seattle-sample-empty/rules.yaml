@@ -1,0 +1,13 @@
+registry_id: seattle-sample-empty
+municipality: Seattle
+retrieved_on: "2026-11-23"
+fresh_through: "2026-11-23"
+coverage_start: "2024-01-01"
+documented_change_date: "2026-01-21"
+supported_districts:
+  - NC2
+  - C1
+supported_uses:
+  - general-retail
+  - general-office
+rules: []

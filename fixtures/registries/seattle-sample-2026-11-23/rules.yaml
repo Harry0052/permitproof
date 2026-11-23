@@ -1,0 +1,192 @@
+registry_id: seattle-sample-2026-11-23
+municipality: Seattle
+retrieved_on: "2026-11-23"
+fresh_through: "2026-11-23"
+coverage_start: "2024-01-01"
+documented_change_date: "2026-01-21"
+supported_districts:
+  - NC2
+  - C1
+supported_uses:
+  - general-retail
+  - general-office
+guidance:
+  source_url: "https://www.seattle.gov/construction-and-inspections/permits/permits-we-issue-(a-z)/construction-permit---establishing-use"
+  source_section: "SDCI guidance, Establish a Use"
+rules:
+  - rule_id: rule-nc2-general-retail-2024win
+    use_id: general-retail
+    district: NC2
+    source_url: "https://library.municode.com/wa/seattle/codes/municipal_code?nodeId=TIT23LAUSCO_SUBTITLE_IIILAUSRE_CH23.47ACO_23.47A.004PEPRUS"
+    code_locator: "SMC 23.47A.004 Table A for 23.47A.004, row C.10.a"
+    effective_from: "2024-01-01"
+    effective_to: "2026-01-20"
+    review_status: reviewed
+    reviewed_by: permitproof-fixture-review
+    reviewed_on: "2026-11-23"
+    table_cell: "25"
+    cell_meaning: "Published key 25 means permitted, and the business establishment is limited to 25,000 square feet under SMC 23.47A.010."
+    verification_scope: current-cell-carried-into-prior-window
+    content_origin: published-code-reading
+    ordinance_citation: "Window ends 2026-01-20. The cell was copied from the Supplement No. 44 reading and was not transcribed from an older edition. Confirm the historical cell with SDCI or the City Clerk."
+    conditions:
+      - id: size-cap
+        text: "Confirm the business-establishment size. The published cell caps it at 25,000 square feet under SMC 23.47A.010. Size is not an input here."
+        evaluated: false
+      - id: not-an-overlay-reading
+        text: "SMC 23.47A.004.A says overlay districts can provide otherwise. This sample does not interpret overlays."
+        evaluated: false
+  - rule_id: rule-nc2-general-retail-2026
+    use_id: general-retail
+    district: NC2
+    source_url: "https://library.municode.com/wa/seattle/codes/municipal_code?nodeId=TIT23LAUSCO_SUBTITLE_IIILAUSRE_CH23.47ACO_23.47A.004PEPRUS"
+    code_locator: "SMC 23.47A.004 Table A for 23.47A.004, row C.10.a"
+    effective_from: "2026-01-21"
+    effective_to: null
+    review_status: reviewed
+    reviewed_by: permitproof-fixture-review
+    reviewed_on: "2026-11-23"
+    table_cell: "25"
+    cell_meaning: "Published key 25 means permitted, and the business establishment is limited to 25,000 square feet under SMC 23.47A.010."
+    verification_scope: supplement-44-reading
+    content_origin: published-code-reading
+    ordinance_citation: "Read on 2026-11-23 from Seattle Municipal Code Supplement No. 44, codified through Ordinance 127459, passed June 30, 2026. The section history lists Ord. 127376 section 48 (2025). This window starts on 2026-01-21, the date secondary summaries give after the December 22, 2025 mayoral signature. Confirm that effective date with the City Clerk."
+    conditions:
+      - id: size-cap
+        text: "Confirm the business-establishment size. The published cell caps it at 25,000 square feet under SMC 23.47A.010. Size is not an input here."
+        evaluated: false
+      - id: not-an-overlay-reading
+        text: "SMC 23.47A.004.A says overlay districts can provide otherwise. This sample does not interpret overlays."
+        evaluated: false
+  - rule_id: rule-nc2-general-office-2024win
+    use_id: general-office
+    district: NC2
+    source_url: "https://library.municode.com/wa/seattle/codes/municipal_code?nodeId=TIT23LAUSCO_SUBTITLE_IIILAUSRE_CH23.47ACO_23.47A.004PEPRUS"
+    code_locator: "SMC 23.47A.004 Table A for 23.47A.004, row C.8"
+    effective_from: "2024-01-01"
+    effective_to: "2026-01-20"
+    review_status: reviewed
+    reviewed_by: permitproof-fixture-review
+    reviewed_on: "2026-11-23"
+    table_cell: "25"
+    cell_meaning: "Published key 25 means permitted, and the business establishment is limited to 25,000 square feet under SMC 23.47A.010."
+    verification_scope: current-cell-carried-into-prior-window
+    content_origin: published-code-reading
+    ordinance_citation: "Window ends 2026-01-20. The cell was copied from the Supplement No. 44 reading and was not transcribed from an older edition. Confirm the historical cell with SDCI or the City Clerk."
+    conditions:
+      - id: size-cap
+        text: "Confirm the business-establishment size. The published cell caps it at 25,000 square feet under SMC 23.47A.010. Size is not an input here."
+        evaluated: false
+      - id: not-an-overlay-reading
+        text: "SMC 23.47A.004.A says overlay districts can provide otherwise. This sample does not interpret overlays."
+        evaluated: false
+  - rule_id: rule-nc2-general-office-2026
+    use_id: general-office
+    district: NC2
+    source_url: "https://library.municode.com/wa/seattle/codes/municipal_code?nodeId=TIT23LAUSCO_SUBTITLE_IIILAUSRE_CH23.47ACO_23.47A.004PEPRUS"
+    code_locator: "SMC 23.47A.004 Table A for 23.47A.004, row C.8"
+    effective_from: "2026-01-21"
+    effective_to: null
+    review_status: reviewed
+    reviewed_by: permitproof-fixture-review
+    reviewed_on: "2026-11-23"
+    table_cell: "25"
+    cell_meaning: "Published key 25 means permitted, and the business establishment is limited to 25,000 square feet under SMC 23.47A.010."
+    verification_scope: supplement-44-reading
+    content_origin: published-code-reading
+    ordinance_citation: "Read on 2026-11-23 from Seattle Municipal Code Supplement No. 44, codified through Ordinance 127459, passed June 30, 2026. The section history lists Ord. 127376 section 48 (2025). This window starts on 2026-01-21, the date secondary summaries give after the December 22, 2025 mayoral signature. Confirm that effective date with the City Clerk."
+    conditions:
+      - id: size-cap
+        text: "Confirm the business-establishment size. The published cell caps it at 25,000 square feet under SMC 23.47A.010. Size is not an input here."
+        evaluated: false
+      - id: not-an-overlay-reading
+        text: "SMC 23.47A.004.A says overlay districts can provide otherwise. This sample does not interpret overlays."
+        evaluated: false
+  - rule_id: rule-c1-general-retail-2024win
+    use_id: general-retail
+    district: C1
+    source_url: "https://library.municode.com/wa/seattle/codes/municipal_code?nodeId=TIT23LAUSCO_SUBTITLE_IIILAUSRE_CH23.47ACO_23.47A.004PEPRUS"
+    code_locator: "SMC 23.47A.004 Table A for 23.47A.004, row C.10.a"
+    effective_from: "2024-01-01"
+    effective_to: "2026-01-20"
+    review_status: reviewed
+    reviewed_by: permitproof-fixture-review
+    reviewed_on: "2026-11-23"
+    table_cell: "P"
+    cell_meaning: "Published key P means permitted. This cell has no numeric size cap. Other Title 23 limits are not interpreted here."
+    verification_scope: current-cell-carried-into-prior-window
+    content_origin: published-code-reading
+    ordinance_citation: "Window ends 2026-01-20. The cell was copied from the Supplement No. 44 reading and was not transcribed from an older edition. Confirm the historical cell with SDCI or the City Clerk."
+    conditions:
+      - id: other-title-23
+        text: "The cell has no numeric cap. Confirm whether any other section in Title 23 limits this proposal. This sample does not interpret those sections."
+        evaluated: false
+      - id: not-an-overlay-reading
+        text: "SMC 23.47A.004.A says overlay districts can provide otherwise. This sample does not interpret overlays."
+        evaluated: false
+  - rule_id: rule-c1-general-retail-2026
+    use_id: general-retail
+    district: C1
+    source_url: "https://library.municode.com/wa/seattle/codes/municipal_code?nodeId=TIT23LAUSCO_SUBTITLE_IIILAUSRE_CH23.47ACO_23.47A.004PEPRUS"
+    code_locator: "SMC 23.47A.004 Table A for 23.47A.004, row C.10.a"
+    effective_from: "2026-01-21"
+    effective_to: null
+    review_status: reviewed
+    reviewed_by: permitproof-fixture-review
+    reviewed_on: "2026-11-23"
+    table_cell: "P"
+    cell_meaning: "Published key P means permitted. This cell has no numeric size cap. Other Title 23 limits are not interpreted here."
+    verification_scope: supplement-44-reading
+    content_origin: published-code-reading
+    ordinance_citation: "Read on 2026-11-23 from Seattle Municipal Code Supplement No. 44, codified through Ordinance 127459, passed June 30, 2026. The section history lists Ord. 127376 section 48 (2025). This window starts on 2026-01-21, the date secondary summaries give after the December 22, 2025 mayoral signature. Confirm that effective date with the City Clerk."
+    conditions:
+      - id: other-title-23
+        text: "The cell has no numeric cap. Confirm whether any other section in Title 23 limits this proposal. This sample does not interpret those sections."
+        evaluated: false
+      - id: not-an-overlay-reading
+        text: "SMC 23.47A.004.A says overlay districts can provide otherwise. This sample does not interpret overlays."
+        evaluated: false
+  - rule_id: rule-c1-general-office-2024win
+    use_id: general-office
+    district: C1
+    source_url: "https://library.municode.com/wa/seattle/codes/municipal_code?nodeId=TIT23LAUSCO_SUBTITLE_IIILAUSRE_CH23.47ACO_23.47A.004PEPRUS"
+    code_locator: "SMC 23.47A.004 Table A for 23.47A.004, row C.8"
+    effective_from: "2024-01-01"
+    effective_to: "2026-01-20"
+    review_status: reviewed
+    reviewed_by: permitproof-fixture-review
+    reviewed_on: "2026-11-23"
+    table_cell: "35"
+    cell_meaning: "Published cell 35 with footnote 9. In C1, offices are permitted up to the greater of 1 FAR or 35,000 square feet under SMC 23.47A.010.D, and have no size cap only if that subsection's standards are met. This sample does not decide those standards."
+    verification_scope: current-cell-carried-into-prior-window
+    content_origin: published-code-reading
+    ordinance_citation: "Window ends 2026-01-20. The cell was copied from the Supplement No. 44 reading and was not transcribed from an older edition. Confirm the historical cell with SDCI or the City Clerk."
+    conditions:
+      - id: office-size-footnote-9
+        text: "Confirm floor area and whether SMC 23.47A.010.D's greater-of-1-FAR-or-35000-square-feet cap, or its no-limit standards, fits this proposal. This sample does not calculate FAR."
+        evaluated: false
+      - id: not-an-overlay-reading
+        text: "SMC 23.47A.004.A says overlay districts can provide otherwise. This sample does not interpret overlays."
+        evaluated: false
+  - rule_id: rule-c1-general-office-2026
+    use_id: general-office
+    district: C1
+    source_url: "https://library.municode.com/wa/seattle/codes/municipal_code?nodeId=TIT23LAUSCO_SUBTITLE_IIILAUSRE_CH23.47ACO_23.47A.004PEPRUS"
+    code_locator: "SMC 23.47A.004 Table A for 23.47A.004, row C.8"
+    effective_from: "2026-01-21"
+    effective_to: null
+    review_status: reviewed
+    reviewed_by: permitproof-fixture-review
+    reviewed_on: "2026-11-23"
+    table_cell: "35"
+    cell_meaning: "Published cell 35 with footnote 9. In C1, offices are permitted up to the greater of 1 FAR or 35,000 square feet under SMC 23.47A.010.D, and have no size cap only if that subsection's standards are met. This sample does not decide those standards."
+    verification_scope: supplement-44-reading
+    content_origin: published-code-reading
+    ordinance_citation: "Read on 2026-11-23 from Seattle Municipal Code Supplement No. 44, codified through Ordinance 127459, passed June 30, 2026. The section history lists Ord. 127376 section 48 (2025). This window starts on 2026-01-21, the date secondary summaries give after the December 22, 2025 mayoral signature. Confirm that effective date with the City Clerk."
+    conditions:
+      - id: office-size-footnote-9
+        text: "Confirm floor area and whether SMC 23.47A.010.D's greater-of-1-FAR-or-35000-square-feet cap, or its no-limit standards, fits this proposal. This sample does not calculate FAR."
+        evaluated: false
+      - id: not-an-overlay-reading
+        text: "SMC 23.47A.004.A says overlay districts can provide otherwise. This sample does not interpret overlays."
+        evaluated: false

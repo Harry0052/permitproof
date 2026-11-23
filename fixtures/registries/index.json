@@ -1,0 +1,10 @@
+{
+  "registries": [
+    "seattle-sample-2026-11-23",
+    "seattle-sample-conflict",
+    "seattle-sample-empty",
+    "seattle-sample-stale",
+    "seattle-sample-unreviewed",
+    "seattle-sample-bad-source"
+  ]
+}

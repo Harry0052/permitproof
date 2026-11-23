@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "registry_id": "seattle-sample-2026-11-23",
+  "parcel_id": "SYN-NC2-001",
+  "intended_use": "general-retail",
+  "current_use": {
+    "state": "documented",
+    "citation": "SYNTHETIC-RECORD-100"
+  },
+  "as_of": "2026-06-01",
+  "operator_confirmed": {
+    "parcel": false,
+    "intended_use": false,
+    "current_use": false,
+    "as_of": false
+  }
+}
